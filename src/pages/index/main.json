@@ -1,10 +1,11 @@
 {
-  "navigationBarBackgroundColor": "#ffcf8d",
+  "navigationBarBackgroundColor": "#2266e1",
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "微信接口功能演示",
   "backgroundColor": "#ffcf8d",
   "backgroundTextStyle": "light",
   "usingComponents": {
-    "van-button": "/static/vant/button/index"
+    "van-button": "/static/vant/button/index",
+    "van-row": "/static/vant/row/index"
   }
 }
