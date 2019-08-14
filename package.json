@@ -31,6 +31,7 @@
     "mpvue": "^2.0.0",
     "mpvue-router-patch": "^2.0.0",
     "qs": "^6.7.0",
+    "throttle-debounce": "^2.1.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

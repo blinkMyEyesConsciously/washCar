@@ -6,25 +6,19 @@ Vue.config.productionTip = false
 App.mpType = 'app'
 Vue.config._mpTrace = true
 import MpvueRouterPatch from 'mpvue-router-patch'
+
 wx.cloud.init({
   traceUser: true
 })
 Vue.prototype.db = wx.cloud.database({
   env: 'meow-helper-1b5609'
 })
-function promisify(api) {
-  return (options, params) => {
-	return new Promise((resolve, reject) => {
-	  api(Object.assign({}, options, {
-		success: res => resolve(res),
-		fail: res => reject(res)
-	  }, params))
-	})
-  }
-}
 
-Vue.prototype.wx=wx
-Vue.prototype.Dialog=Dialog
+
+
+
+Vue.prototype.wx = wx
+Vue.prototype.Dialog = Dialog
 
 Vue.use(MpvueRouterPatch)
 const app = new Vue(App)
