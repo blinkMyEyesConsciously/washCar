@@ -4,8 +4,11 @@
   "navigationBarTitleText": "微信接口功能演示",
   "backgroundColor": "#ffcf8d",
   "backgroundTextStyle": "light",
+  "disableScroll":true,
   "usingComponents": {
     "van-button": "/static/vant/button/index",
-    "van-row": "/static/vant/row/index"
+    "van-row": "/static/vant/row/index",
+    "van-dialog": "/static/vant/dialog/index"
+
   }
 }
